@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from compare import compare_day_night_demand
+from utils.compare import compare_day_night_demand
 
 def test_course_exists():
     data = {
